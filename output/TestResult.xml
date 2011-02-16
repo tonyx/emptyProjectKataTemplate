@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="..\CodeBreakerKata\bin\Debug\CodeBreakerKata.dll" total="1" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-02-16" time="15:34:13">
+  <environment nunit-version="2.5.7.10213" clr-version="2.0.50727.4952" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\Users\tonyx\Documents\Visual Studio 2010\Projects\katatemplate\output" machine-name="TONYX-NB" user="tonyx" user-domain="tonyx-NB" />
+  <culture-info current-culture="it-IT" current-uiculture="it-IT" />
+  <test-suite type="Assembly" name="..\CodeBreakerKata\bin\Debug\CodeBreakerKata.dll" executed="True" result="Failure" success="False" time="0.227" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="MyClass" executed="True" result="Failure" success="False" time="0.215" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="MyTestClass" executed="True" result="Failure" success="False" time="0.077" asserts="0">
+            <results>
+              <test-case name="MyClass.MyTestClass.FirstTest" executed="True" result="Failure" success="False" time="0.056" asserts="1">
+                <failure>
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[in MyClass.MyTestClass.FirstTest() in c:\Users\tonyx\Documents\Visual Studio 2010\Projects\katatemplate\CodeBreakerKata\CodeBreaker.cs:riga 19
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
